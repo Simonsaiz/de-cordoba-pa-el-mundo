@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* 1rem = 16px */
+
+/* navbar */
+
+nav{
+    background-color: rgb(155, 184, 205);
+    padding: 4rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar li{
+    margin: 0 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    color: rgb(238, 199, 89);
+    font-optical-sizing: auto;
+    font-weight:bolder;
+    font-style:normal;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    top: 2rem;
+    margin: 0 10px;
+}
+
+/* Inicio */
+
+.tituloInicio{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: "Poetsen One", sans-serif;
+    color: rgb(39, 55, 77);
+    font-size: 50px;
+    font-style: normal;
+}
+
+.parrafoInicio{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: "Oswald", sans-serif;
+    color: rgb(14, 70, 163);
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+main{
+    background-color: white;
+}
+
+.tituloPais{
+    font-family: "Oswald", sans-serif;
+    align-self: center;
+    color:rgb(21, 52, 72);
+}
+
+.inicioConteiner{
+    border: solid 5px rgb(30, 3, 66);
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.inicioCard{
+    display: flex;
+    background-color: rgb(221, 230, 237);
+}
+
+.inicioCard div{
+    display: flex;
+    flex-direction: column;
+}
+
+.inicioDerecha{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    background-color: rgb(223, 208, 184);
+}
+
+/* paises */
+
+.cardConteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 2rem;
+}
+
+.header{
+    grid-area: header;
+}
+
+
+
+.footer{
+    grid-area: footer;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    width: 150px;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    background-color: rgb(148, 137, 121);
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+.imgPais{
+    border-radius: 100%;
+}
+
+.imgPaisEspana{
+    border-radius: 100%;
+}
+
+.nombrePais{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-style: normal;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+footer{
+    background-color: rgb(155, 184, 205);
+    padding: 80px;
+    margin-bottom: 0;
+}
