@@ -7,41 +7,13 @@
 
 /* navbar */
 
-nav{
+.navbar-brand img{
+    height: 4rem;
+    width: auto;
+}
+
+.navColor{
     background-color: rgb(155, 184, 205);
-    padding: 4rem;
-}
-
-.navbar{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.navbar li{
-    margin: 0 10px;
-}
-
-ul{
-    list-style-type: none;
-}
-
-a{
-    font-family: "Oswald", sans-serif;
-    text-decoration: none;
-    color: rgb(238, 199, 89);
-    font-optical-sizing: auto;
-    font-weight:bolder;
-    font-style:normal;
-}
-
-.logo{
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    width: 6rem;
-    height: 6rem;
-    top: 2rem;
-    margin: 0 10px;
 }
 
 /* Inicio */
@@ -151,6 +123,6 @@ main{
 
 footer{
     background-color: rgb(155, 184, 205);
-    padding: 80px;
+    padding: 50px;
     margin-bottom: 0;
 }
